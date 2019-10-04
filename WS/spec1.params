@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wsaConfig bundle="10000" csvlayout="list" csvseparator="," ndecs="6">
+    <policy>parameters</policy>
+    <refreshall>true</refreshall>
+    <matrix>
+        <item>log</item>
+    </matrix>
+    <tsmatrix>
+        <series>y</series>
+        <series>s</series>
+        <series>s_f</series>
+        <series>cal</series>
+        <series>cal_f</series>
+    </tsmatrix>
+</wsaConfig>

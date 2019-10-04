@@ -1,5 +1,3 @@
-library(RJDemetra)
-
 
 ws_components<-function(ws, msa, component, cname=NULL){
   if (is.null(cname))
@@ -17,4 +15,8 @@ ws_components<-function(ws, msa, component, cname=NULL){
   }
   colnames(all)<-paste(cname,(1:n), sep="")
   return (all)
+}
+
+ws_spec<-function(saitem){
+  
 }
